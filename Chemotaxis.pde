@@ -45,13 +45,13 @@ class Bacteria
        {
          myX = myX + (int)(((Math.random()*21) - 5)*mySpeed);
        }else{
-         myX = myX + (int)(((Math.random()*21) - 12)*mySpeed);
+         myX = myX + (int)(((Math.random()*21) - 15)*mySpeed);
        }
        if(mouseY > myY)
        {
          myY = myY + (int)(((Math.random()*21) - 5)*mySpeed);
        }else{
-         myY = myY + (int)(((Math.random()*21) - 12)*mySpeed);
+         myY = myY + (int)(((Math.random()*21) - 15)*mySpeed);
        }
      } else {
        myX = myX + (int)(((Math.random()*21) - 10)*mySpeed);
